@@ -12,8 +12,12 @@ due while NVDA was not running, it is shown as soon as NVDA starts again.
 
 | Name | Default gesture |
 | --- | --- |
-| Add a reminder | NVDA+alt+r |
-| Show the list of pending reminders | NVDA+alt+l |
+| Add a reminder | NVDA+alt+shift+r |
+| Show the list of pending reminders | NVDA+alt+shift+l |
+
+Neither gesture is used by NVDA itself: NVDA+alt+r toggles Remote Access and
+NVDA+alt+l increases the braille automatic scroll rate, so both Reminder
+commands keep the Shift modifier to stay out of their way.
 
 You can change or remove these gestures in NVDA's Input Gestures dialog, in the
 Reminder category.
@@ -60,4 +64,3 @@ The Reminder category in NVDA's Settings dialog controls:
 
 If the selected sound file is missing or cannot be played, NVDA falls back to
 the included chime and then to a beep.
-        

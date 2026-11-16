@@ -1066,7 +1066,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
     @script(
         description=_("Shows the dialog for adding a new reminder."),
-        gesture="kb:NVDA+alt+r",
+        gesture="kb:NVDA+alt+shift+r",
     )
     def script_addReminder(self, gesture):
         trace("script_addReminder entered")
@@ -1086,7 +1086,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
     @script(
         description=_("Shows the list of pending reminders."),
-        gesture="kb:NVDA+alt+l",
+        gesture="kb:NVDA+alt+shift+l",
     )
     def script_showReminders(self, gesture):
         trace("script_showReminders entered")
